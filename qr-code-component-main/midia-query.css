@@ -1,0 +1,30 @@
+ 
+
+@media screen and (min-width:1025px) and (max-width: 1200px) {
+    body{
+        background-image: url(design/desktop-design.jpg);
+        background-position: center center;
+        background-size: cover;
+        
+    }
+    img#mage1{display: none;}
+    img#mage2{display: none;}
+    img#mage3{display: block;}
+    main#principal{display: none;}
+
+}
+
+ @media screen and (min-width:1201px){
+
+    body{
+        background-image: url(design/desktop-preview.jpg);
+        background-position: center center;
+        background-size: cover;
+        
+    }
+    img#mage1{display: none;}
+    img#mage2{display: block;}
+    img#mage3{display: none;}
+    main#principal{display: none;}
+
+ }
